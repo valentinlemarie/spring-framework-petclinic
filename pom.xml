@@ -9,6 +9,13 @@
     <name>petclinic</name>
     <packaging>war</packaging>
 
+	<distributionManagement>
+		<snapshotRepository>
+			<id>nexus-snapshots</id>
+			<url>http://localhost:8081/repository/maven-snapshots/</url>
+		</snapshotRepository>
+	</distributionManagement>
+	
     <properties>
 
         <!-- Generic properties -->
